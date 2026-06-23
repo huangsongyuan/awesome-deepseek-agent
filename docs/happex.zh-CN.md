@@ -4,8 +4,6 @@
 
 > **Happex 桌面 AI 工程平台** — 一个跨平台桌面应用，用于 AI 辅助软件工程，支持任务管理、工具执行和多供应商模型。
 
-
-
 ## 下载与安装
 
 ### 系统要求
@@ -23,7 +21,6 @@
    - **macOS (Intel)**：`happex_<version>_x86_64.dmg`
    - **Windows**：`happex_<version>_x64-setup.exe`（NSIS 安装包）
 3. 打开/运行安装包并按提示完成安装
-
 
 ## 更新
 
@@ -43,11 +40,10 @@ Happex 内置基于 Tauri Updater 的自动更新机制。
 
 从 [GitHub Releases](https://github.com/huangsongyuan/happex/releases/latest) 下载最新安装包，覆盖安装即可。
 
-
 ## DeepSeek供应商配置
 
 前往 [DeepSeek 开放平台](https://platform.deepseek.com/api_keys) 获取 API Key。
-前往 [DeepSeek 开放平台模型说明](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)) 获取URL及配置说明。
+前往 [DeepSeek 开放平台模型说明](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)获取URL及配置说明。
 
 ### 页面配置（UI）
 
@@ -69,12 +65,9 @@ Happex 内置基于 Tauri Updater 的自动更新机制。
 - 可以更新显示名称、Base URL 和 API 密钥
 - 编辑模式下的 API 密钥字段为可选——留空则保持现有密钥不变
 
-
 #### 删除供应商
 
 点击供应商旁边的 **垃圾桶** 图标。删除供应商会同时移除其下的所有模型配置。
-
-
 
 ## 模型配置
 
@@ -114,7 +107,6 @@ Happex 内置基于 Tauri Updater 的自动更新机制。
 
 点击模型旁边的 **垃圾桶** 图标移除该模型。
 
-
 ## 常见问题
 
 ### "未选择模型"报错
@@ -123,6 +115,6 @@ Happex 内置基于 Tauri Updater 的自动更新机制。
 2. 确保至少配置了一个供应商
 3. 在供应商下至少添加一个模型配置
 4. 点击 **星形** 图标设置默认模型
----
 
+---
 
